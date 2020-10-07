@@ -1,0 +1,63 @@
+#about-wrapper{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5%;
+    background-image: linear-gradient(to right, rgba(198,229,234,.0), rgba(45,143,146,.3), rgba(198,229,234,.0));
+
+}
+#about-us-header{
+    text-align: center;
+    color: #005587;
+    font-size: 240%;
+    width: 280px;
+    margin: auto;
+    border-bottom: 5px solid #2d8f92;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.img-box{
+    width: 36%;
+    display: inline-block;
+    text-align: center;
+}
+
+#about-wrapper div img{
+    display:inline-block;
+    width: 200px;
+    height: 300px;
+    vertical-align: top;
+    margin:auto;
+    margin-top: 50px;
+}
+
+#about-wrapper section{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.worker-bio h2{
+    color: #005587;
+    font-style: italic;
+    border-bottom: #2d8f92 solid 5px;
+}
+#valerie-bio h2{
+    text-align: right;
+    
+}
+@media only screen and (max-width: 1058px) {
+   #about-wrapper{
+       width: 80%;
+   }
+  }
+
+  @media only screen and (max-width: 919px) {
+    #about-wrapper{
+        width: 100%;
+    }
+   }

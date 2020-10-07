@@ -1,0 +1,185 @@
+.container{
+    position: relative;
+    top: 0px;
+}
+
+#home{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    min-height: 400px;
+    background-image: linear-gradient(to right, rgba(45,143,146,.1), rgba(45,143,146,1));
+
+
+}
+ 
+/* --------------------------- */
+#judy{
+    position: relative;
+    top: 50px;
+    left: -50px;
+    transform: rotate(90deg);
+    height: 300px;
+    z-index: -1;
+    display: inline;
+}
+
+#quickbooks-logo{
+    position: relative;
+    right: 100px;
+    bottom: 320px;
+    height: 80px;
+    width: auto;
+}
+
+#title{
+    position: absolute;
+    left: 30%;
+    top: 60px;
+    color: white;
+    font-size: 190%;
+    text-align: center;
+    width: 60%;
+}
+
+#title h3{
+    margin-top: -20px;
+    color: #005587;
+    font-size: 90%;
+}
+
+#title p{
+    text-align: center;
+    font-size: 60%;
+    color: white;
+}
+
+/* ------------------------ */
+
+
+.bullet-aside{
+    width: 30%;
+    display: inline-block;
+    padding: 1.5%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.bullet-aside h3{
+    font-size:130%;
+    color: #005587;
+    width: 70%;
+    border-bottom: 5px solid #2d8f92; 
+    padding-bottom: 4px;
+}
+
+.bullet-aside ul{
+    list-style: none;
+}
+
+.bullet-aside ul li{
+    font-size: 120%;
+    padding-bottom:5px;
+    font-style: italic;
+}
+.bullet-aside ul li::before {
+    list-style-type: square;
+    content: "\22C4";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #2d8f92; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    font-size:120%;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.5em; /* Also needed for space (tweak if needed) */
+}
+/* ---------------------- */
+
+#business-performance{
+    width: 30%;
+    display: inline-block;
+    padding: 1.5%;
+    height: 100%;
+    vertical-align: top;
+}
+
+#business-performance h3{
+    border-bottom: 5px solid #2d8f92; 
+    padding-bottom: 4px;
+    font-size:130%;
+    width: 60%;
+    color: #005587;
+}
+
+#business-performance p{
+    font-size: 120%;
+    text-align: justify;
+}
+
+
+/* ------------------------------- */
+
+#what-we-do{
+    width: 100%;
+    background-color: rgba(0,160,175, .3);
+    padding-top:20px;
+    padding-bottom:150px;
+}
+
+#what-we-do p{
+    font-size: 140%;
+    width: 50%;
+    font-weight: 100px;
+    margin: auto;
+    text-align: center;
+    color: #005587;
+}
+#what-we-do h1{
+    font-size: 240%;
+    color:#005587;
+    text-align: center;
+}
+
+#what-we-do h1 span{
+    border-bottom: 5px solid #2d8f92; 
+}
+
+.do-cards{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+   
+    border-radius: 15px;
+    padding:5px;
+    margin-left: 2.2%;
+    margin-top: 25px;
+    min-height: 250px;
+    background-color: rgba(198,229,234,1);    
+}
+
+.do-cards h3{
+    text-align: center;
+    color:#005587;
+}
+
+.do-cards h3 span{
+    border-bottom: 3px solid #2d8f92;
+}
+
+.do-cards ul{
+    list-style: none;
+}
+
+.do-cards ul li{
+    font-size: 120%;
+    padding-bottom:5px;
+}
+.do-cards ul li::before {
+    list-style-type: square;
+    content: "\22C4";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #2d8f92; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    font-size:120%;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
