@@ -1,5 +1,5 @@
 nav{
-    height:120px;
+    height:150px;
     width: 100%;
     position: relative;
     background: white;
@@ -7,6 +7,7 @@ nav{
 
 nav img{
     display: inline;
+    height:150px;
 }
 
 nav ul{
@@ -19,4 +20,5 @@ nav ul li{
     display: inline;
     padding: 8px;
     padding-right:20px;
+    font-size: 130%;
 }

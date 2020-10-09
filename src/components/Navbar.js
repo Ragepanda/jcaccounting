@@ -15,7 +15,7 @@ constructor(props){
 render(){
     return(
         <nav>
-            <img src="/assets/logo.jpg"/>
+            <img src="/assets/logo2.jpg"/>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About Us</Link></li>

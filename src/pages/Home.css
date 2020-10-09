@@ -26,35 +26,60 @@
 
 #quickbooks-logo{
     position: relative;
-    right: 100px;
-    bottom: 320px;
-    height: 80px;
+    right: 400px;
+    top: 100px;
+    height: 130px;
     width: auto;
 }
 
 #title{
     position: absolute;
     left: 30%;
-    top: 60px;
+    top: 20px;
     color: white;
     font-size: 190%;
     text-align: center;
     width: 60%;
 }
 
+#title h2{
+    margin-top: 15px;
+}
+
 #title h3{
-    margin-top: -20px;
+    margin-top: -30px;
     color: #005587;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 #title p{
     text-align: center;
-    font-size: 60%;
+    font-size: 70%;
     color: white;
 }
 
 /* ------------------------ */
+#qb-certified{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#qb-certified img{
+    width: 80px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+#qb-certified h1{
+    color: #005587;
+    text-align: center;
+    font-size: 200%;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 
 
 .bullet-aside{
@@ -63,6 +88,10 @@
     padding: 1.5%;
     height: 100%;
     vertical-align: top;
+}
+
+.bullet-aside div{
+    display: block;
 }
 
 .bullet-aside h3{
@@ -147,27 +176,43 @@
     width: 30%;
     display: inline-block;
     vertical-align: top;
-   
+    
     border-radius: 15px;
     padding:5px;
     margin-left: 2.2%;
     margin-top: 25px;
-    min-height: 250px;
+    min-height: 300px;
     background-color: rgba(198,229,234,1);    
+    position: relative;
 }
 
 .do-cards h3{
     text-align: center;
     color:#005587;
+    width: 50%;  
+    margin: auto;
+}
+
+.do-cards img{
+    height: 80px;
+   position: absolute;
+   top: 2px;
+   right: 2px;
+   border-radius: 10px;
 }
 
 .do-cards h3 span{
-    border-bottom: 3px solid #2d8f92;
+    border-bottom: 3px solid #2d8f92; 
 }
 
 .do-cards ul{
     list-style: none;
 }
+
+/* #qb-card ul{
+    position: relative;
+    bottom: 120px;
+} */
 
 .do-cards ul li{
     font-size: 120%;

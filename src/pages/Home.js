@@ -17,7 +17,7 @@ class Home extends React.Component {
             <div class="container">
                 <section id="home">
                     <img id="judy" src="/assets/judy.jpg" />
-                    <img id="quickbooks-logo" src="/assets/qblogo.jpg"/>
+                    <img id="quickbooks-logo" src="/assets/qblogo.jpg" />
                     <div id="title">
                         <h2> JC Accounting & Taxation Services </h2>
                         <h3>Your Local Accounting Solution </h3>
@@ -28,43 +28,50 @@ class Home extends React.Component {
                     </div>
                 </section>
 
+                <section id ="qb-certified">
+                    <h1>Certified QuickBooks Online ProAdvisor</h1>
+                    <img src="/assets/qblogo.jpg" />
+                </section>
 
-                <aside className="bullet-aside">
-                    <h3>Why Outsource Your Accounting & Bookkeeping Services?</h3>
-                    <ul type="square">
-                        <li>Saves your business time</li>
-                        <li>Saves your business money</li>
-                        <li>Keep up-to-date information</li>
-                        <li>Ready for tax time</li>
-                        <li>Organized accounting records</li>
-                        <li>Eliminate need for full-time bookkeeper</li>
-                    </ul>
-                </aside>
+                <section>
+                    <aside className="bullet-aside">
 
-                <aside id="business-performance">
-                    <h3>Know How Your Business Is Performing At All Times</h3>
-                    <p>With our experience we can set up your bookkeeping system specialized for your line of work.
-                        In addition, we can maintain your accounts payable, accounts receivable, bank reconcilliation cost
+                        <h3>Why Outsource Your Accounting & Bookkeeping Services?</h3>
+                        <ul type="square">
+                            <li>Saves your business time</li>
+                            <li>Saves your business money</li>
+                            <li>Up-to-date information at all times</li>
+                            <li>Ready for tax time</li>
+                            <li>Organized accounting records</li>
+                            <li>Eliminates need for full-time bookkeeper</li>
+                        </ul>
+                    </aside>
+
+                    <aside id="business-performance">
+                        <h3>Know How Your Business Is Performing At All Times</h3>
+                        <p>With our experience we can set up your bookkeeping system specialized for your line of work.
+                            In addition, we can maintain your accounts payable, accounts receivable, bank reconcilliation cost
                         and all your financial reporting.</p>
 
-                    <p>By maintaining your accounting records you will save on accountants fee at tax time.</p>
-                </aside>
+                        <p>By maintaining your accounting records you will save on accountants fees at tax time.</p>
+                    </aside>
 
-                <aside className="bullet-aside">
-                    <h3>Work With Us However Is Most Convenient For You</h3>
-                    <ul>
-                        <li>
-                            On-Site: At Your office, using Your computuer system and software on Your schedule
+                    <aside className="bullet-aside">
+                        <h3>Work With Us However Is Most Convenient For You</h3>
+                        <ul>
+                            <li>
+                                On-Site: At Your office, using Your computuer system and software on Your schedule
                             </li>
-                        <li>
-                            Off-site At Our office, using Our computer system and software of Your choice
+                            <li>
+                                Off-site At Our office, using Our computer system and software of Your choice
                             </li>
-                    </ul>
-                </aside>
+                        </ul>
+                    </aside>
+                </section>
 
                 <section id="what-we-do">
                     <h1><span>What We Do...</span></h1>
-                    <p>With our proficiency in Quickbooks Online, Quickbooks Enterprise and Peachtree Manufacturing we are able to provide a wide range of accounting and taxation services to help your business save money and succeed.  </p>
+                    <p>With our proficiency in QuickBooks Online, QuickBooks Enterprise and Peachtree Manufacturing we are able to provide a wide range of accounting and taxation services to help your business save money and succeed.  </p>
                     <div className="do-cards">
                         <h3>
                             <span>Accounts Payables</span>
@@ -116,14 +123,14 @@ class Home extends React.Component {
 
                     <div className="do-cards">
                         <h3>
-                            <span>Bank Reconcilliation</span>
+                            <span>Income Tax Preparation</span>
                         </h3>
                         <ul>
                             <li>
-                                Matching Up Your Bank Statments With Your Books
+                                Individual Tax Preparation
                             </li>
                             <li>
-                                Identify Lost Checks, Lost Deposits and Any Unauthorized Transactions
+                                Small Businesses: S-Corps, C-Corps, Partnerships
                             </li>
 
                         </ul>
@@ -160,45 +167,41 @@ class Home extends React.Component {
                         </h3>
                         <ul>
                             <li>
-                                Income Statement
-                            </li>
-                            <li>
-                                Balance Sheet
-                            </li>
-                            <li>
-                                Cashflow Reports
+                                Bank Reconcilliation
                             </li>
                             <li>
                                 General Ledger Accounting
                             </li>
                             <li>
-                                Bring Books to Trial Balance Stage
+                                Month End Close
+                            </li>
+                            <li>
+                                Income Statement & Balance Sheet
                             </li>
                         </ul>
                     </div>
 
-                    <div className="do-cards">
+                    <div className="do-cards" id="qb-card">
                         <h3>
-                            <span> Ad Hoc Services</span>
+                            <span> QuickBooks Support</span>
+                            
                         </h3>
+                        <img src="/assets/qblogo.jpg" />
                         <ul>
                             <li>
-                                Budget Preparation
+                                QuickBooks Pro Advisor
                             </li>
                             <li>
-                                Florida Notary
-                            </li>
-                            <li>
-                                Income Tax Preparation
+                                Expert Help In Getting Set Up
                             </li>
 
                         </ul>
                     </div>
-            </section>
-        </div>
+                </section>
+            </div>
 
 
-            
+
         )
     }
 
